@@ -158,15 +158,11 @@ GenerateClassCluster=0
 DocumentUniqueId=CJRAFYTD
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Booster_Main_Board\Design Rule Check - PA_8CH_CTRL.html
+DocumentPath=Project Outputs for Booster_Main_Board\Design Rule Check - Booster_Main_Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for PA_8CH_Main_Board\PA_Channel.BOM
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for PA_8CH_Main_Board\PA_Channel.CSV
+DocumentPath=Project Outputs for Booster_Main_Board\Design Rule Check - PA_8CH_CTRL.html
 DItemRevisionGUID=
 
 [Configuration1]
