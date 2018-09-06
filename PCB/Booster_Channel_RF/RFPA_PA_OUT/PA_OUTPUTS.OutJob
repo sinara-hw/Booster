@@ -36,7 +36,7 @@ OutputMedium4_Type=Multimedia
 OutputType1=Pick Place
 OutputName1=Generates pick and place files
 OutputCategory1=Assembly
-OutputDocumentPath1=RFPA_PA_OUT.PcbDoc
+OutputDocumentPath1=Booster_PA_OUT.PcbDoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -49,7 +49,7 @@ Configuration1_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=True|
 OutputType2=Gerber
 OutputName2=Gerber Files
 OutputCategory2=Fabrication
-OutputDocumentPath2=RFPA_PA_OUT.PcbDoc
+OutputDocumentPath2=Booster_PA_OUT.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -62,7 +62,7 @@ Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType3=NC Drill
 OutputName3=NC Drill Files
 OutputCategory3=Fabrication
-OutputDocumentPath3=RFPA_PA_OUT.PcbDoc
+OutputDocumentPath3=Booster_PA_OUT.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
@@ -157,9 +157,35 @@ Configuration7_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Ful
 Configuration7_Name15=OutputConfigurationParameter15
 Configuration7_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer
 PcbPrintPreferences7=
+OutputType8=BOM_PartType
+OutputName8=Bill of Materials
+OutputCategory8=Report
+OutputDocumentPath8=
+OutputVariantName8=AD9910
+OutputEnabled8=0
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=4
+OutputEnabled8_OutputMedium4=0
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration8_Name1=ColumnNameFormat
+Configuration8_Item1=CaptionAsName
+Configuration8_Name2=Filter
+Configuration8_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration8_Name3=General
+Configuration8_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration8_Name4=GroupOrder
+Configuration8_Item4=Comment=True|Footprint=True
+Configuration8_Name5=OutputConfigurationParameter1
+Configuration8_Item5=??
+Configuration8_Name6=SortOrder
+Configuration8_Item6=Designator=Up|Comment=Up|Footprint=Up
+Configuration8_Name7=VisibleOrder
+Configuration8_Item7=Comment=100|Description=100|Designator=100|Footprint=100|Manufacturer=100|Manufacturer Part Number=100|Manufacturer1 ComponentHeight=100|Manufacturer1 Example=100|Manufacturer1 Part Number=100|Part Description=100|Part Number=100|Quantity=100
 
 [PublishSettings]
-OutputFilePath2=D:\Dropbox\DESIGNS\Booster\PCB\BoosterChannel_RF\RFPA_PA_OUT\Project Outputs for Booster_PA\PA_OUTPUTS.PDF
+OutputFilePath2=Project Outputs for Booster_PA\PA_OUTPUTS.PDF
 ReleaseManaged2=0
 OutputBasePath2=Project Outputs for Booster_PA\
 OutputPathMedia2=
@@ -186,7 +212,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=D:\Dropbox\DESIGNS\Booster\PCB\BoosterChannel_RF\RFPA_PA_OUT\Project Outputs for Booster_PA\
+OutputFilePath3=Project Outputs for Booster_PA\
 ReleaseManaged3=0
 OutputBasePath3=Project Outputs for Booster_PA\
 OutputPathMedia3=
@@ -238,9 +264,9 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\Dropbox\DESIGNS\Booster\PCB\BoosterChannel_RF\RFPA_PA_OUT\Project Outputs for Booster_PA\PA_OUTPUTS.PDF
+RelativeOutputPath2=Project Outputs for Booster_PA\PA_OUTPUTS.PDF
 OpenOutputs2=1
-RelativeOutputPath3=D:\Dropbox\DESIGNS\Booster\PCB\BoosterChannel_RF\RFPA_PA_OUT\Project Outputs for Booster_PA\
+RelativeOutputPath3=Project Outputs for Booster_PA\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
