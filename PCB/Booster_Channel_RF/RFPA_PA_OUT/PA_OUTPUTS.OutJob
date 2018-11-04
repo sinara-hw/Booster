@@ -185,7 +185,7 @@ Configuration8_Name7=VisibleOrder
 Configuration8_Item7=Comment=100|Description=100|Designator=100|Footprint=100|Manufacturer=100|Manufacturer Part Number=100|Manufacturer1 ComponentHeight=100|Manufacturer1 Example=100|Manufacturer1 Part Number=100|Part Description=100|Part Number=100|Quantity=100
 
 [PublishSettings]
-OutputFilePath2=Project Outputs for Booster_PA\PA_OUTPUTS.PDF
+OutputFilePath2=D:\Dropbox\DESIGNS\Booster\PCB\Booster_Channel_RF\RFPA_PA_OUT\Project Outputs for Booster_PA\Booster_PA_preamp.PDF
 ReleaseManaged2=0
 OutputBasePath2=Project Outputs for Booster_PA\
 OutputPathMedia2=
@@ -193,9 +193,9 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=PA_OUTPUTS.PDF
+OutputFileName2=Booster_PA_OUT.PDF
 OutputFileNameMulti2=
-UseOutputNameForMulti2=1
+UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=1
 PromptOverwrite2=1
@@ -227,7 +227,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for RFPA_PA_OUT
+OutputBasePath4=Project Outputs for Booster_PA_OUT
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -264,7 +264,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=Project Outputs for Booster_PA\PA_OUTPUTS.PDF
+RelativeOutputPath2=D:\Dropbox\DESIGNS\Booster\PCB\Booster_Channel_RF\RFPA_PA_OUT\Project Outputs for Booster_PA\Booster_PA_preamp.PDF
 OpenOutputs2=1
 RelativeOutputPath3=Project Outputs for Booster_PA\
 OpenOutputs3=0

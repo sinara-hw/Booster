@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job Group
+Name=OUTPUTS_PREAMP.OutJob
 Description=
 TargetOutputMedium=PDF
 VariantName=[No Variations]
@@ -236,7 +236,7 @@ Configuration9_Name7=VisibleOrder
 Configuration9_Item7=Comment=100|Description=100|Designator=100|Footprint=100|Manufacturer=100|Manufacturer Part Number=100|Manufacturer1 ComponentHeight=100|Manufacturer1 Example=100|Manufacturer1 Part Number=100|Part Description=100|Part Number=100|Quantity=100
 
 [PublishSettings]
-OutputFilePath2=D:\Dropbox\DESIGNS\Booster\PCB\Booster_Channel_RF\RFPA_PREAMP\Project Outputs for Booster_preamp\Booster_preamp.PDF
+OutputFilePath2=D:\Dropbox\DESIGNS\Booster\PCB\Booster_Channel_RF\RFPA_PREAMP\Project Outputs for Booster_preamp\Booster_PA_preamp.PDF
 ReleaseManaged2=0
 OutputBasePath2=Project Outputs for Booster_preamp\
 OutputPathMedia2=
@@ -315,7 +315,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\Dropbox\DESIGNS\Booster\PCB\Booster_Channel_RF\RFPA_PREAMP\Project Outputs for Booster_preamp\Booster_preamp.PDF
+RelativeOutputPath2=D:\Dropbox\DESIGNS\Booster\PCB\Booster_Channel_RF\RFPA_PREAMP\Project Outputs for Booster_preamp\Booster_PA_preamp.PDF
 OpenOutputs2=1
 RelativeOutputPath3=D:\Dropbox\DESIGNS\Booster\PCB\BoosterChannel_RF\RFPA_PREAMP\Project Outputs for Booster_preamp\
 OpenOutputs3=0
