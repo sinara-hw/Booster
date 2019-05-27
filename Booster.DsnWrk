@@ -1,0 +1,14 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=MECH\PANEL\Panel.PrjPcb
+[Project2]
+ProjectPath=PCB\Booster_Main_Board\Booster_Main_Board.PrjPcb
+[Project3]
+ProjectPath=PCB\Booster_RF_Channel_SUP_CTRL\Booster_RF_CH_SUP_CTRL.PrjPcb
+[Project4]
+ProjectPath=PCB\Booster_User_Interface\Booster_USER_IFC.PrjPcb
+[Project5]
+ProjectPath=PCB\Booster_Channel_RF\RFPA_PA_OUT\Booster_PA_OUT.PrjPCB
+[Project6]
+ProjectPath=PCB\Booster_Channel_RF\RFPA_PREAMP\RFPA_PREAMP.PrjPcb

@@ -178,7 +178,7 @@ UniqueID=621FF026-43E3-4FA4-8849-479ADF46753D
 Description=std
 AllowFabrication=0
 ParameterCount=0
-VariationCount=24
+VariationCount=25
 Variation1=Designator=C28_1|UniqueId=\EMAAMNFC\FPFHFDWY\UQMLPGOU|Kind=1|AlternatePart= 
 Variation2=Designator=C28_8|UniqueId=\EMAAMNFC\TQSQOUWQ\UQMLPGOU|Kind=1|AlternatePart= 
 Variation3=Designator=C28_7|UniqueId=\EMAAMNFC\LQGHASYF\UQMLPGOU|Kind=1|AlternatePart= 
@@ -203,6 +203,7 @@ Variation21=Designator=R87_6|UniqueId=\EMAAMNFC\RSXLDGWS\IRDVIEDH|Kind=1|Alterna
 Variation22=Designator=R87_5|UniqueId=\EMAAMNFC\JYCGMACY\IRDVIEDH|Kind=1|AlternatePart= 
 Variation23=Designator=R87_8|UniqueId=\EMAAMNFC\TQSQOUWQ\IRDVIEDH|Kind=1|AlternatePart= 
 Variation24=Designator=R87_7|UniqueId=\EMAAMNFC\LQGHASYF\IRDVIEDH|Kind=1|AlternatePart= 
+Variation25=Designator=IC20|UniqueId=\EMAAMNFC\TQTHMIAX\UKHJKQSD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -327,32 +328,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=DYMO MobileLabeler
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=SIMetrixSimulation
-OutputName1=SIMetrix
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMPLISSimulation
-OutputName2=SIMPLIS
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -793,6 +774,11 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -973,6 +959,7 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
+Type117=1
 
 [Difference Levels]
 Type1=1
@@ -1040,6 +1027,7 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
+Type66=1
 
 [Electrical Rules Check]
 Type1=1
