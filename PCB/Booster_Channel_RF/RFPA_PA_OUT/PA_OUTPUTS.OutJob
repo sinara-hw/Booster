@@ -18,7 +18,7 @@ RevisionNamingSchemeGUID=
 Name=PA_OUTPUTS.OutJob
 Description=
 TargetOutputMedium=PDF
-VariantName=[No Variations]
+VariantName=std
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Virtual Printer
@@ -75,7 +75,7 @@ Configuration3_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType4=Schematic Print
 OutputName4=Schematic Prints
 OutputCategory4=Documentation
-OutputDocumentPath4=
+OutputDocumentPath4=[Project Physical Documents]
 OutputVariantName4=
 OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0

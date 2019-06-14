@@ -105,6 +105,31 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OFHGDORV
 
+[ProjectVariant1]
+UniqueID=57490D05-D165-4906-8D4E-647BE45E3741
+Description=std
+AllowFabrication=0
+ParameterCount=0
+VariationCount=17
+Variation1=Designator=R2|UniqueId=\RMLQJMQF|Kind=1|AlternatePart= 
+Variation2=Designator=C18|UniqueId=\WPHYYYKD|Kind=1|AlternatePart= 
+Variation3=Designator=R39|UniqueId=\VCWHYUCX|Kind=1|AlternatePart= 
+Variation4=Designator=R25|UniqueId=\JEYEXUUF|Kind=1|AlternatePart= 
+Variation5=Designator=R38|UniqueId=\GOAVITNC|Kind=1|AlternatePart= 
+Variation6=Designator=R37|UniqueId=\EGTMNJQN|Kind=1|AlternatePart= 
+Variation7=Designator=R12|UniqueId=\XMJAXIOW|Kind=1|AlternatePart= 
+Variation8=Designator=R42|UniqueId=\OJDEWRFR|Kind=1|AlternatePart= 
+Variation9=Designator=U8|UniqueId=\BVDQOBHN|Kind=1|AlternatePart= 
+Variation10=Designator=R40|UniqueId=\DFVPOBNJ|Kind=1|AlternatePart= 
+Variation11=Designator=R20|UniqueId=\EHQOLUYT|Kind=1|AlternatePart= 
+Variation12=Designator=C30|UniqueId=\LQSTUYEC|Kind=1|AlternatePart= 
+Variation13=Designator=R7|UniqueId=\YLBUIYTA|Kind=1|AlternatePart= 
+Variation14=Designator=C28|UniqueId=\RPNTFFBC|Kind=1|AlternatePart= 
+Variation15=Designator=R24|UniqueId=\TFQMBYNA|Kind=1|AlternatePart= 
+Variation16=Designator=C25|UniqueId=\YFDIWRBO|Kind=1|AlternatePart= 
+Variation17=Designator=R28|UniqueId=\UEYXRBGM|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Booster_PA_OUT\Design Rule Check - Booster_PA_OUT.html
 DItemRevisionGUID=
@@ -267,7 +292,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=DYMO MobileLabeler
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -741,6 +766,46 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=MBAExportPARASOLID
+OutputName12=Export PARASOLID
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=MBAExportSTEP
+OutputName13=Export STEP
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
