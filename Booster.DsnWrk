@@ -12,3 +12,5 @@ ProjectPath=PCB\Booster_User_Interface\Booster_USER_IFC.PrjPcb
 ProjectPath=PCB\Booster_Channel_RF\RFPA_PA_OUT\Booster_PA_OUT.PrjPCB
 [Project6]
 ProjectPath=PCB\Booster_Channel_RF\RFPA_PREAMP\RFPA_PREAMP.PrjPcb
+[Project7]
+ProjectPath=PCB\Booster_Channel_RF\Booster_Common_Channel_RF.PrjPcb
