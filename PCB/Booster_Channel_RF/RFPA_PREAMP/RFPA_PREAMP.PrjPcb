@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for RFPA_PREAMP
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -111,7 +111,7 @@ Variation14=Designator=C9|UniqueId=\QRMXYXWQ|Kind=1|AlternatePart=
 Variation15=Designator=R17|UniqueId=\KFLOITPM|Kind=1|AlternatePart= 
 Variation16=Designator=J2|UniqueId=\CCWGLBSW|Kind=1|AlternatePart= 
 Variation17=Designator=J1|UniqueId=\XBYPPBNX|Kind=1|AlternatePart= 
-Variation18=Designator=R31|UniqueId=\EINTQGOW|Kind=1|AlternatePart= 
+Variation18=Designator=R31|UniqueId=\EINTQGOW|Kind=0|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -129,7 +129,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for RFPA_PREAMP
 
 [OutputGroup1]
 Name=Netlist Outputs

@@ -88,23 +88,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
-DocumentPath=RFPA_PA_OUT.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OFHGDORV
-
 [ProjectVariant1]
 UniqueID=57490D05-D165-4906-8D4E-647BE45E3741
 Description=std
@@ -136,10 +119,6 @@ Variation22=Designator=R32|UniqueId=\IXAQSIUX|Kind=1|AlternatePart=
 Variation23=Designator=R3|UniqueId=\XRUPOUBG|Kind=1|AlternatePart= 
 Variation24=Designator=R6|UniqueId=\HNKHOSLK|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Booster_PA_OUT\Design Rule Check - Booster_PA_OUT.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources

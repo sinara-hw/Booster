@@ -18,10 +18,10 @@ RevisionNamingSchemeGUID=
 Name=PA_Channel_SUP_CTRL.OutJob
 Description=
 TargetOutputMedium=Folder Structure
-VariantName=[No Variations]
+VariantName=std
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
