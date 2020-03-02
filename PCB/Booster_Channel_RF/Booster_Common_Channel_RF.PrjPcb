@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Booster_Common_Channel_RF
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -127,7 +127,7 @@ UniqueID=1BF24257-D14E-4DB0-9ED2-30D755CA31BC
 Description=std
 AllowFabrication=0
 ParameterCount=0
-VariationCount=34
+VariationCount=64
 Variation1=Designator=R23|UniqueId=\VJWEGXHD|Kind=1|AlternatePart= 
 Variation2=Designator=R5|UniqueId=\SFMPCHFH|Kind=1|AlternatePart= 
 Variation3=Designator=R11|UniqueId=\EHUPYTKW|Kind=1|AlternatePart= 
@@ -162,14 +162,40 @@ Variation31=Designator=C43|UniqueId=\QRMXYXWQ|Kind=1|AlternatePart=
 Variation32=Designator=J3|UniqueId=\CCWGLBSW|Kind=1|AlternatePart= 
 Variation33=Designator=J4|UniqueId=\XBYPPBNX|Kind=1|AlternatePart= 
 Variation34=Designator=C58|UniqueId=\RIBWINND|Kind=1|AlternatePart= 
+Variation35=Designator=R50|UniqueId=\KULUZCJQ\EHUPYTKW|Kind=1|AlternatePart= 
+Variation36=Designator=R45|UniqueId=\KULUZCJQ\SFMPCHFH|Kind=1|AlternatePart= 
+Variation37=Designator=R46|UniqueId=\KULUZCJQ\NQIULQGC|Kind=1|AlternatePart= 
+Variation38=Designator=J3|UniqueId=\KULUZCJQ\CCWGLBSW|Kind=1|AlternatePart= 
+Variation39=Designator=J4|UniqueId=\KULUZCJQ\XBYPPBNX|Kind=1|AlternatePart= 
+Variation40=Designator=R51|UniqueId=\KULUZCJQ\YCLGGREQ|Kind=1|AlternatePart= 
+Variation41=Designator=C43|UniqueId=\KULUZCJQ\QRMXYXWQ|Kind=1|AlternatePart= 
+Variation42=Designator=R66|UniqueId=\KULUZCJQ\FHFVVLAV|Kind=1|AlternatePart= 
+Variation43=Designator=C56|UniqueId=\KULUZCJQ\KWVROMCG|Kind=1|AlternatePart= 
+Variation44=Designator=R69|UniqueId=\KULUZCJQ\HRHWKIRK|Kind=1|AlternatePart= 
+Variation45=Designator=R72|UniqueId=\KULUZCJQ\VJWEGXHD|Kind=1|AlternatePart= 
+Variation46=Designator=R71|UniqueId=\KULUZCJQ\KFLOITPM|Kind=1|AlternatePart= 
+Variation47=Designator=R12|UniqueId=\XBXTETOG\BRPXHMTA|Kind=1|AlternatePart= 
+Variation48=Designator=R7|UniqueId=\XBXTETOG\YLBUIYTA|Kind=1|AlternatePart= 
+Variation49=Designator=R20|UniqueId=\XBXTETOG\EHQOLUYT|Kind=1|AlternatePart= 
+Variation50=Designator=R25|UniqueId=\XBXTETOG\JEYEXUUF|Kind=1|AlternatePart= 
+Variation51=Designator=R38|UniqueId=\XBXTETOG\GOAVITNC|Kind=1|AlternatePart= 
+Variation52=Designator=U8|UniqueId=\XBXTETOG\BVDQOBHN|Kind=1|AlternatePart= 
+Variation53=Designator=R2|UniqueId=\XBXTETOG\RMLQJMQF|Kind=1|AlternatePart= 
+Variation54=Designator=R24|UniqueId=\XBXTETOG\TFQMBYNA|Kind=1|AlternatePart= 
+Variation55=Designator=R37|UniqueId=\XBXTETOG\EGTMNJQN|Kind=1|AlternatePart= 
+Variation56=Designator=R39|UniqueId=\XBXTETOG\VCWHYUCX|Kind=1|AlternatePart= 
+Variation57=Designator=R23|UniqueId=\XBXTETOG\NPWDOAKU|Kind=0|AlternatePart= 
+Variation58=Designator=R32|UniqueId=\XBXTETOG\IXAQSIUX|Kind=1|AlternatePart= 
+Variation59=Designator=R42|UniqueId=\XBXTETOG\ENAYDQEM|Kind=1|AlternatePart= 
+Variation60=Designator=R31|UniqueId=\XBXTETOG\LGVNIXOL|Kind=0|AlternatePart= 
+Variation61=Designator=R3|UniqueId=\XBXTETOG\XRUPOUBG|Kind=1|AlternatePart= 
+Variation62=Designator=R6|UniqueId=\XBXTETOG\HNKHOSLK|Kind=1|AlternatePart= 
+Variation63=Designator=C30|UniqueId=\XBXTETOG\BXZTMBHY|Kind=1|AlternatePart= 
+Variation64=Designator=C25|UniqueId=\XBXTETOG\OEVZTCVO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Booster_Common_Channel_RF\Design Rule Check - Booster_Common_Channel_RF.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Booster_Common_Channel_RF\Design Rule Check - Booster_PA_PREAMP.html
 DItemRevisionGUID=
 
 [Configuration1]
@@ -183,7 +209,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for Booster_Common_Channel_RF
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -786,6 +812,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
