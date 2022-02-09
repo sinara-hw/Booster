@@ -35,6 +35,12 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -96,8 +102,7 @@ UniqueID=FBAAFA6D-6846-4B68-8156-BB85BEB51280
 Description=std
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
-Variation1=Designator=R10|UniqueId=\ILIXWTLM|Kind=1|AlternatePart= 
+VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -226,7 +231,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -23,15 +23,24 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -178,37 +187,100 @@ UniqueID=621FF026-43E3-4FA4-8849-479ADF46753D
 Description=std
 AllowFabrication=0
 ParameterCount=0
-VariationCount=25
-Variation1=Designator=C28_1|UniqueId=\EMAAMNFC\FPFHFDWY\UQMLPGOU|Kind=1|AlternatePart= 
-Variation2=Designator=C28_8|UniqueId=\EMAAMNFC\TQSQOUWQ\UQMLPGOU|Kind=1|AlternatePart= 
-Variation3=Designator=C28_7|UniqueId=\EMAAMNFC\LQGHASYF\UQMLPGOU|Kind=1|AlternatePart= 
-Variation4=Designator=C28_6|UniqueId=\EMAAMNFC\RSXLDGWS\UQMLPGOU|Kind=1|AlternatePart= 
-Variation5=Designator=C28_5|UniqueId=\EMAAMNFC\JYCGMACY\UQMLPGOU|Kind=1|AlternatePart= 
-Variation6=Designator=C28_4|UniqueId=\EMAAMNFC\GCTQFGGO\UQMLPGOU|Kind=1|AlternatePart= 
-Variation7=Designator=C28_3|UniqueId=\EMAAMNFC\PCWCPIHV\UQMLPGOU|Kind=1|AlternatePart= 
-Variation8=Designator=C28_2|UniqueId=\EMAAMNFC\BLFVDBKM\UQMLPGOU|Kind=1|AlternatePart= 
-Variation9=Designator=IC13_1|UniqueId=\EMAAMNFC\FPFHFDWY\QNGQTLBA|Kind=1|AlternatePart= 
-Variation10=Designator=IC13_2|UniqueId=\EMAAMNFC\BLFVDBKM\QNGQTLBA|Kind=1|AlternatePart= 
-Variation11=Designator=IC13_8|UniqueId=\EMAAMNFC\TQSQOUWQ\QNGQTLBA|Kind=1|AlternatePart= 
-Variation12=Designator=IC13_7|UniqueId=\EMAAMNFC\LQGHASYF\QNGQTLBA|Kind=1|AlternatePart= 
-Variation13=Designator=IC13_6|UniqueId=\EMAAMNFC\RSXLDGWS\QNGQTLBA|Kind=1|AlternatePart= 
-Variation14=Designator=IC13_5|UniqueId=\EMAAMNFC\JYCGMACY\QNGQTLBA|Kind=1|AlternatePart= 
-Variation15=Designator=IC13_4|UniqueId=\EMAAMNFC\GCTQFGGO\QNGQTLBA|Kind=1|AlternatePart= 
-Variation16=Designator=IC13_3|UniqueId=\EMAAMNFC\PCWCPIHV\QNGQTLBA|Kind=1|AlternatePart= 
-Variation17=Designator=R87_1|UniqueId=\EMAAMNFC\FPFHFDWY\IRDVIEDH|Kind=1|AlternatePart= 
-Variation18=Designator=R87_2|UniqueId=\EMAAMNFC\BLFVDBKM\IRDVIEDH|Kind=1|AlternatePart= 
-Variation19=Designator=R87_4|UniqueId=\EMAAMNFC\GCTQFGGO\IRDVIEDH|Kind=1|AlternatePart= 
-Variation20=Designator=R87_3|UniqueId=\EMAAMNFC\PCWCPIHV\IRDVIEDH|Kind=1|AlternatePart= 
-Variation21=Designator=R87_6|UniqueId=\EMAAMNFC\RSXLDGWS\IRDVIEDH|Kind=1|AlternatePart= 
-Variation22=Designator=R87_5|UniqueId=\EMAAMNFC\JYCGMACY\IRDVIEDH|Kind=1|AlternatePart= 
-Variation23=Designator=R87_8|UniqueId=\EMAAMNFC\TQSQOUWQ\IRDVIEDH|Kind=1|AlternatePart= 
-Variation24=Designator=R87_7|UniqueId=\EMAAMNFC\LQGHASYF\IRDVIEDH|Kind=1|AlternatePart= 
-Variation25=Designator=IC20|UniqueId=\EMAAMNFC\TQTHMIAX\UKHJKQSD|Kind=1|AlternatePart= 
+VariationCount=92
+Variation1=Designator=C19_1|UniqueId=\EMAAMNFC\FPFHFDWY\ACSXFQHC|Kind=1|AlternatePart= 
+Variation2=Designator=C19_8|UniqueId=\EMAAMNFC\TQSQOUWQ\ACSXFQHC|Kind=1|AlternatePart= 
+Variation3=Designator=C19_7|UniqueId=\EMAAMNFC\LQGHASYF\ACSXFQHC|Kind=1|AlternatePart= 
+Variation4=Designator=C19_4|UniqueId=\EMAAMNFC\GCTQFGGO\ACSXFQHC|Kind=1|AlternatePart= 
+Variation5=Designator=C19_2|UniqueId=\EMAAMNFC\BLFVDBKM\ACSXFQHC|Kind=1|AlternatePart= 
+Variation6=Designator=C19_6|UniqueId=\EMAAMNFC\RSXLDGWS\ACSXFQHC|Kind=1|AlternatePart= 
+Variation7=Designator=C19_3|UniqueId=\EMAAMNFC\PCWCPIHV\ACSXFQHC|Kind=1|AlternatePart= 
+Variation8=Designator=C19_5|UniqueId=\EMAAMNFC\JYCGMACY\ACSXFQHC|Kind=1|AlternatePart= 
+Variation9=Designator=IC21_2|UniqueId=\EMAAMNFC\BLFVDBKM\YGNNSGNU|Kind=1|AlternatePart= 
+Variation10=Designator=IC21_3|UniqueId=\EMAAMNFC\PCWCPIHV\YGNNSGNU|Kind=1|AlternatePart= 
+Variation11=Designator=IC21_4|UniqueId=\EMAAMNFC\GCTQFGGO\YGNNSGNU|Kind=1|AlternatePart= 
+Variation12=Designator=IC21_5|UniqueId=\EMAAMNFC\JYCGMACY\YGNNSGNU|Kind=1|AlternatePart= 
+Variation13=Designator=IC21_6|UniqueId=\EMAAMNFC\RSXLDGWS\YGNNSGNU|Kind=1|AlternatePart= 
+Variation14=Designator=IC21_7|UniqueId=\EMAAMNFC\LQGHASYF\YGNNSGNU|Kind=1|AlternatePart= 
+Variation15=Designator=R10_1|UniqueId=\EMAAMNFC\FPFHFDWY\FYRXUNEW|Kind=1|AlternatePart= 
+Variation16=Designator=R13_1|UniqueId=\EMAAMNFC\FPFHFDWY\XTIEOCLL|Kind=1|AlternatePart= 
+Variation17=Designator=R10_8|UniqueId=\EMAAMNFC\TQSQOUWQ\FYRXUNEW|Kind=1|AlternatePart= 
+Variation18=Designator=R10_7|UniqueId=\EMAAMNFC\LQGHASYF\FYRXUNEW|Kind=1|AlternatePart= 
+Variation19=Designator=R10_6|UniqueId=\EMAAMNFC\RSXLDGWS\FYRXUNEW|Kind=1|AlternatePart= 
+Variation20=Designator=R10_5|UniqueId=\EMAAMNFC\JYCGMACY\FYRXUNEW|Kind=1|AlternatePart= 
+Variation21=Designator=R10_4|UniqueId=\EMAAMNFC\GCTQFGGO\FYRXUNEW|Kind=1|AlternatePart= 
+Variation22=Designator=R10_3|UniqueId=\EMAAMNFC\PCWCPIHV\FYRXUNEW|Kind=1|AlternatePart= 
+Variation23=Designator=R10_2|UniqueId=\EMAAMNFC\BLFVDBKM\FYRXUNEW|Kind=1|AlternatePart= 
+Variation24=Designator=R13_8|UniqueId=\EMAAMNFC\TQSQOUWQ\XTIEOCLL|Kind=1|AlternatePart= 
+Variation25=Designator=R13_7|UniqueId=\EMAAMNFC\LQGHASYF\XTIEOCLL|Kind=1|AlternatePart= 
+Variation26=Designator=R13_6|UniqueId=\EMAAMNFC\RSXLDGWS\XTIEOCLL|Kind=1|AlternatePart= 
+Variation27=Designator=R13_5|UniqueId=\EMAAMNFC\JYCGMACY\XTIEOCLL|Kind=1|AlternatePart= 
+Variation28=Designator=R13_4|UniqueId=\EMAAMNFC\GCTQFGGO\XTIEOCLL|Kind=1|AlternatePart= 
+Variation29=Designator=R13_3|UniqueId=\EMAAMNFC\PCWCPIHV\XTIEOCLL|Kind=1|AlternatePart= 
+Variation30=Designator=R13_2|UniqueId=\EMAAMNFC\BLFVDBKM\XTIEOCLL|Kind=1|AlternatePart= 
+Variation31=Designator=IC12|UniqueId=\EMAAMNFC\VYLELNSF\WMDCLKIQ|Kind=1|AlternatePart= 
+Variation32=Designator=L2|UniqueId=\EMAAMNFC\VYLELNSF\SIEUSWWN|Kind=1|AlternatePart= 
+Variation33=Designator=R81|UniqueId=\EMAAMNFC\VYLELNSF\DIJAHMCQ|Kind=1|AlternatePart= 
+Variation34=Designator=R82|UniqueId=\EMAAMNFC\VYLELNSF\LPNFTDLN|Kind=1|AlternatePart= 
+Variation35=Designator=C55|UniqueId=\EMAAMNFC\VYLELNSF\OYOYWCOC|Kind=1|AlternatePart= 
+Variation36=Designator=IC21_8|UniqueId=\EMAAMNFC\TQSQOUWQ\YGNNSGNU|Kind=1|AlternatePart= 
+Variation37=Designator=C36_1|UniqueId=\EMAAMNFC\FPFHFDWY\CXSRPCJS|Kind=1|AlternatePart= 
+Variation38=Designator=C36_3|UniqueId=\EMAAMNFC\PCWCPIHV\CXSRPCJS|Kind=1|AlternatePart= 
+Variation39=Designator=C36_2|UniqueId=\EMAAMNFC\BLFVDBKM\CXSRPCJS|Kind=1|AlternatePart= 
+Variation40=Designator=C36_8|UniqueId=\EMAAMNFC\TQSQOUWQ\CXSRPCJS|Kind=1|AlternatePart= 
+Variation41=Designator=C36_7|UniqueId=\EMAAMNFC\LQGHASYF\CXSRPCJS|Kind=1|AlternatePart= 
+Variation42=Designator=C36_6|UniqueId=\EMAAMNFC\RSXLDGWS\CXSRPCJS|Kind=1|AlternatePart= 
+Variation43=Designator=C36_5|UniqueId=\EMAAMNFC\JYCGMACY\CXSRPCJS|Kind=1|AlternatePart= 
+Variation44=Designator=C36_4|UniqueId=\EMAAMNFC\GCTQFGGO\CXSRPCJS|Kind=1|AlternatePart= 
+Variation45=Designator=IC21_1|UniqueId=\EMAAMNFC\FPFHFDWY\YGNNSGNU|Kind=1|AlternatePart= 
+Variation46=Designator=R126|UniqueId=\EMAAMNFC\DYWTPOIQ|Kind=1|AlternatePart= 
+Variation47=Designator=R127|UniqueId=\EMAAMNFC\TNOWDNKK|Kind=1|AlternatePart= 
+Variation48=Designator=C80_1|UniqueId=\EMAAMNFC\FPFHFDWY\OVJUFCRF|Kind=1|AlternatePart= 
+Variation49=Designator=C81_1|UniqueId=\EMAAMNFC\FPFHFDWY\YEUKSFSK|Kind=1|AlternatePart= 
+Variation50=Designator=C80_7|UniqueId=\EMAAMNFC\LQGHASYF\OVJUFCRF|Kind=1|AlternatePart= 
+Variation51=Designator=C80_6|UniqueId=\EMAAMNFC\RSXLDGWS\OVJUFCRF|Kind=1|AlternatePart= 
+Variation52=Designator=C80_5|UniqueId=\EMAAMNFC\JYCGMACY\OVJUFCRF|Kind=1|AlternatePart= 
+Variation53=Designator=C80_4|UniqueId=\EMAAMNFC\GCTQFGGO\OVJUFCRF|Kind=1|AlternatePart= 
+Variation54=Designator=C80_3|UniqueId=\EMAAMNFC\PCWCPIHV\OVJUFCRF|Kind=1|AlternatePart= 
+Variation55=Designator=C80_2|UniqueId=\EMAAMNFC\BLFVDBKM\OVJUFCRF|Kind=1|AlternatePart= 
+Variation56=Designator=C80_8|UniqueId=\EMAAMNFC\TQSQOUWQ\OVJUFCRF|Kind=1|AlternatePart= 
+Variation57=Designator=C81_7|UniqueId=\EMAAMNFC\LQGHASYF\YEUKSFSK|Kind=1|AlternatePart= 
+Variation58=Designator=C81_6|UniqueId=\EMAAMNFC\RSXLDGWS\YEUKSFSK|Kind=1|AlternatePart= 
+Variation59=Designator=C81_5|UniqueId=\EMAAMNFC\JYCGMACY\YEUKSFSK|Kind=1|AlternatePart= 
+Variation60=Designator=C81_4|UniqueId=\EMAAMNFC\GCTQFGGO\YEUKSFSK|Kind=1|AlternatePart= 
+Variation61=Designator=C81_3|UniqueId=\EMAAMNFC\PCWCPIHV\YEUKSFSK|Kind=1|AlternatePart= 
+Variation62=Designator=C81_2|UniqueId=\EMAAMNFC\BLFVDBKM\YEUKSFSK|Kind=1|AlternatePart= 
+Variation63=Designator=C81_8|UniqueId=\EMAAMNFC\TQSQOUWQ\YEUKSFSK|Kind=1|AlternatePart= 
+Variation64=Designator=C67_1|UniqueId=\EMAAMNFC\FPFHFDWY\XMKTSPTB|Kind=1|AlternatePart= 
+Variation65=Designator=C67_8|UniqueId=\EMAAMNFC\TQSQOUWQ\XMKTSPTB|Kind=1|AlternatePart= 
+Variation66=Designator=C67_7|UniqueId=\EMAAMNFC\LQGHASYF\XMKTSPTB|Kind=1|AlternatePart= 
+Variation67=Designator=C67_6|UniqueId=\EMAAMNFC\RSXLDGWS\XMKTSPTB|Kind=1|AlternatePart= 
+Variation68=Designator=C67_5|UniqueId=\EMAAMNFC\JYCGMACY\XMKTSPTB|Kind=1|AlternatePart= 
+Variation69=Designator=C67_4|UniqueId=\EMAAMNFC\GCTQFGGO\XMKTSPTB|Kind=1|AlternatePart= 
+Variation70=Designator=C67_3|UniqueId=\EMAAMNFC\PCWCPIHV\XMKTSPTB|Kind=1|AlternatePart= 
+Variation71=Designator=C67_2|UniqueId=\EMAAMNFC\BLFVDBKM\XMKTSPTB|Kind=1|AlternatePart= 
+Variation72=Designator=C82_1|UniqueId=\EMAAMNFC\FPFHFDWY\FGEJHYWE|Kind=1|AlternatePart= 
+Variation73=Designator=C83_8|UniqueId=\EMAAMNFC\TQSQOUWQ\TESFHICS|Kind=1|AlternatePart= 
+Variation74=Designator=C83_7|UniqueId=\EMAAMNFC\LQGHASYF\TESFHICS|Kind=1|AlternatePart= 
+Variation75=Designator=C83_6|UniqueId=\EMAAMNFC\RSXLDGWS\TESFHICS|Kind=1|AlternatePart= 
+Variation76=Designator=C83_5|UniqueId=\EMAAMNFC\JYCGMACY\TESFHICS|Kind=1|AlternatePart= 
+Variation77=Designator=C83_4|UniqueId=\EMAAMNFC\GCTQFGGO\TESFHICS|Kind=1|AlternatePart= 
+Variation78=Designator=C83_3|UniqueId=\EMAAMNFC\PCWCPIHV\TESFHICS|Kind=1|AlternatePart= 
+Variation79=Designator=C83_2|UniqueId=\EMAAMNFC\BLFVDBKM\TESFHICS|Kind=1|AlternatePart= 
+Variation80=Designator=C83_1|UniqueId=\EMAAMNFC\FPFHFDWY\TESFHICS|Kind=1|AlternatePart= 
+Variation81=Designator=C82_8|UniqueId=\EMAAMNFC\TQSQOUWQ\FGEJHYWE|Kind=1|AlternatePart= 
+Variation82=Designator=C82_7|UniqueId=\EMAAMNFC\LQGHASYF\FGEJHYWE|Kind=1|AlternatePart= 
+Variation83=Designator=C82_6|UniqueId=\EMAAMNFC\RSXLDGWS\FGEJHYWE|Kind=1|AlternatePart= 
+Variation84=Designator=C82_5|UniqueId=\EMAAMNFC\JYCGMACY\FGEJHYWE|Kind=1|AlternatePart= 
+Variation85=Designator=C82_4|UniqueId=\EMAAMNFC\GCTQFGGO\FGEJHYWE|Kind=1|AlternatePart= 
+Variation86=Designator=C82_3|UniqueId=\EMAAMNFC\PCWCPIHV\FGEJHYWE|Kind=1|AlternatePart= 
+Variation87=Designator=C82_2|UniqueId=\EMAAMNFC\BLFVDBKM\FGEJHYWE|Kind=1|AlternatePart= 
+Variation88=Designator=R130|UniqueId=\EMAAMNFC\IPINQRVX|Kind=1|AlternatePart= 
+Variation89=Designator=R131|UniqueId=\EMAAMNFC\LGEFHHNF|Kind=1|AlternatePart= 
+Variation90=Designator=CON42_3|UniqueId=\EMAAMNFC\GYQGTDRB\KKWLSINW|Kind=0|AlternatePart= 
+Variation91=Designator=CON2_3|UniqueId=\EMAAMNFC\GYQGTDRB\KPPJTYTM|Kind=1|AlternatePart= 
+Variation92=Designator=IC24|UniqueId=\EMAAMNFC\FFMOMHPY|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Booster_Main_Board\Design Rule Check - Booster_Main_Board.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -226,7 +298,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -332,7 +404,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Bullzip PDF Printer
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -422,11 +494,17 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -448,7 +526,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -520,7 +598,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Bullzip PDF Printer
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -555,11 +633,23 @@ OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -663,83 +753,11 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -783,7 +801,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -844,7 +862,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Brother DCP-L2540DN series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -970,6 +988,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1038,6 +1058,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1046,7 +1068,7 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
@@ -1059,20 +1081,20 @@ Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -1083,15 +1105,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -1099,10 +1121,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=2
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -1140,7 +1162,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -1162,6 +1184,9 @@ Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
+Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1185,6 +1210,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1205,6 +1231,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1223,15 +1250,16 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
