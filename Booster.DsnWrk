@@ -9,4 +9,4 @@ ProjectPath=PCB\Booster_Main_Board\Booster_Main_Board.PrjPcb
 [Project4]
 ProjectPath=PCB\Booster_RF_Channel_SUP_CTRL\Booster_RF_CH_SUP_CTRL.PrjPcb
 [Project5]
-ProjectPath=PCB\Booster_User_Interface\Booster_USER_IFC_W5500.PrjPcb
+ProjectPath=PCB\Booster_User_Interface_ENC424J600\Booster_USER_IFC_ENC424J600.PrjPcb
