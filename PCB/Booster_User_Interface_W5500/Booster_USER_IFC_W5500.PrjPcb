@@ -25,13 +25,14 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=Project Outputs for Booster_USER_IFC_W5500
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -131,14 +132,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XOCRJHEY
 
-[GeneratedDocument1]
-DocumentPath=C:\Users\Admin\AppData\Local\Temp\Pro901F.xls
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=C:\Users\Admin\AppData\Local\Temp\ProECB9.xls
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -150,7 +143,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for Booster_USER_IFC_W5500
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1020,6 +1013,7 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW

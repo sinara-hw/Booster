@@ -25,6 +25,7 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -41,6 +42,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=std
 
 [Preferences]
 PrefsVaultGUID=
@@ -281,6 +283,10 @@ Variation90=Designator=CON42_3|UniqueId=\EMAAMNFC\GYQGTDRB\KKWLSINW|Kind=0|Alter
 Variation91=Designator=CON2_3|UniqueId=\EMAAMNFC\GYQGTDRB\KPPJTYTM|Kind=1|AlternatePart= 
 Variation92=Designator=IC24|UniqueId=\EMAAMNFC\FFMOMHPY|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Booster_Main_Board\Design Rule Check - Booster_Main_Board.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -1187,6 +1193,7 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
