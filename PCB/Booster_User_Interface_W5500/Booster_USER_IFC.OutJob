@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -130,7 +130,7 @@ OutputEnabled5_OutputMedium3=1
 OutputEnabled5_OutputMedium4=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|DocumentPath=D:\Dropbox\DESIGNS\Booster\PCB\Booster_User_Interface\Booster_USER_IFC.PcbDoc
+Configuration5_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Table,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#18=Name:ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#19=Name:SMD,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#20=Name:Manufacturer1 Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#21=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#22=Name:Device,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#23=Name:Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|Column#24=Name:CreateDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#25=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#26=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#27=Name:Bonding,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#28=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#29=Name:Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#30=Name:Socket,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#31=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#32=Name:Component Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#33=Name:Manufacturer1 ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#34=Name:Author,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#35=Name:Mounted,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#36=Name:Manufacturer1 Example,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#37=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#38=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#39=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#40=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#41=Name:Part Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#42=Name:PressFit,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#43=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|Column#44=Name:TC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#45=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#46=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#47=Name:Pin Count,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#48=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#49=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#50=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#51=Name:Sense,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#52=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#53=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:True,Sort:None,Position:30,Type:0|DocumentPath=D:\Dropbox\DESIGNS\Sinara_ALTIUM\Booster\PCB\Booster_User_Interface_W5500\Booster_USER_IFC_W5500.PcbDoc
 OutputType6=Gerber
 OutputName6=Gerber Files
 OutputCategory6=Fabrication
@@ -226,7 +226,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=D:\Dropbox\DESIGNS\Booster\PCB\Booster_User_Interface_W5500\Project Outputs for Booster_User_IFC_W5500\
+OutputFilePath3=D:\Dropbox\DESIGNS\Sinara_ALTIUM\Booster\PCB\Booster_User_Interface_W5500\Project Outputs for Booster_User_IFC_W5500\
 ReleaseManaged3=0
 OutputBasePath3=Project Outputs for Booster_User_IFC_W5500\
 OutputPathMedia3=
@@ -280,7 +280,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=D:\Dropbox\DESIGNS\Booster\PCB\Booster_User_Interface\Project Outputs for Booster_User_IFC_W5500\Booster_User_IFC_W5500.PDF
 OpenOutputs2=1
-RelativeOutputPath3=D:\Dropbox\DESIGNS\Booster\PCB\Booster_User_Interface_W5500\Project Outputs for Booster_User_IFC_W5500\
+RelativeOutputPath3=D:\Dropbox\DESIGNS\Sinara_ALTIUM\Booster\PCB\Booster_User_Interface_W5500\Project Outputs for Booster_User_IFC_W5500\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
