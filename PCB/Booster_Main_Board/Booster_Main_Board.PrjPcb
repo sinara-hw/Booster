@@ -301,8 +301,20 @@ Variation107=Designator=R122_2|UniqueId=\EMAAMNFC\BLFVDBKM\STUOYZOK|Kind=1|Alter
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Prod\ExportSTEP\Booster_Main_Board_v1.6.2(std).step
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Prod\ExportSTEP\Booster_Main_Board_v1.x.x(std).step
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Booster_Main_Board\Design Rule Check - Booster_Main_Board.html
 DItemRevisionGUID=
+
+[Parameter1]
+Name=rev
+Value=1.6.2
 
 [Configuration1]
 Name=Default Configuration
