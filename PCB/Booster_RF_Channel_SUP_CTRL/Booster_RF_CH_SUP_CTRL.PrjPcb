@@ -121,10 +121,14 @@ DocumentPath=..\Booster_User_Interface_W5500\Prod\ExportSTEP\Booster_USER_IFC_W5
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=C:\Users\PS\AppData\Local\Temp\QjzEAD8.xls
+DocumentPath=Project Outputs for Booster_RF_CH_SUP_CTRL\Design Rule Check - PA_Channel_SUP_CTRL.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
+DocumentPath=C:\Users\PS\AppData\Local\Temp\QjzEAD8.xls
+DItemRevisionGUID=
+
+[GeneratedDocument6]
 DocumentPath=C:\Users\PS\AppData\Local\Temp\QjzF415.xls
 DItemRevisionGUID=
 
@@ -703,36 +707,6 @@ OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Ansoft Neutral
-OutputName11=Ansoft Neutral (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=HyperLynx
-OutputName12=HyperLynx (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Orcad v7 Capture Design
-OutputName13=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD ASCII
-OutputName14=P-CAD ASCII (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD V16 Schematic Design
-OutputName15=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=SiSoft
-OutputName16=SiSoft (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
